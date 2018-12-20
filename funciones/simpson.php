@@ -22,7 +22,7 @@
 <h1 align="center">INTEGRACIÓN MÉTODO DE SIMPSON</h1>
 
 
-<table width="50%" border="2px" align="center" class="table table-striped">
+<table width="30%" border="2px" align="center" class="table table-striped">
 
 <form action="simpson.php" method="post">
     <tr align="center">
@@ -38,12 +38,12 @@
         <td> <input class="form-control input-sm" id="inputsm" type="text" name="b">  </td>
     </tr>
     <tr align="center">
-        <td> Incremento de n:  </td>      
+        <td> n:  </td>      
         <td> <input class="form-control input-sm" id="inputsm" type="text" name="incremento">  </td>
     </tr>
-    <td>
-    <input class="form-control input-sm" type="submit" value="Calcular" align="center">
-    </td>
+    <tr align="center">
+        <td> <input class="form-control input-sm" type="submit" value="Calcular"> </td>
+    </tr>
 </form>
 </table>
 
@@ -112,7 +112,7 @@
     if($_POST){
             $a=$_POST['a'];
             $b=$_POST['b'];
-            $aumento=$_POST['incremento'];
+            $n=$_POST['incremento'];
 
             $funcion = $_POST['funcion'];
            
@@ -126,20 +126,22 @@
                     while(true){
                         if(abs($ite1-$ite2)<$error){
 
-                            echo    "<tr align=\"center\">
-                                        <td> Área calculada </td>
-                                        <td>". $ite2 ." </td>
-                                    </tr>
+                            echo    "   <table width=\"30%\" border=\"2px\" align=\"center\" class=\"table table-striped\">
+                                            <tr align=\"center\">
+                                                <td> Área calculada </td>
+                                                <td>". $ite2 ." </td>
+                                            </tr>
 
-                                    <tr align=\"center\">
-                                        <td> Error relativo </td>
-                                        <td>". abs($ite1-$ite2)." </td>
-                                    </tr>
+                                            <tr align=\"center\">
+                                                <td> Error relativo </td>
+                                                <td>". abs($ite1-$ite2)." </td>
+                                            </tr>
 
-                                    <tr align=\"center\">
-                                        <td> n: </td>
-                                        <td>". $n ." en aumento de ".$aumento."$</td>
-                                    </tr>";
+                                            <tr align=\"center\">
+                                                <td> n: </td>
+                                                <td>". $n ." en aumento de ".$aumento."</td>
+                                            </tr>
+                                        </table>";
                             break;
                         }
                         $n=$n+$aumento;
