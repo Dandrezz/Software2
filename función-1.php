@@ -7,6 +7,7 @@
   
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
+   //Completado
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
