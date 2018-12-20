@@ -122,24 +122,24 @@
                     $ite1=simpson($a,$b,2);
                     $ite2=simpson($a,$b,$n);
                     $n=2;
-                    $aumento=1000000;
+                    $aumento=10000;
                     while(true){
                         if(abs($ite1-$ite2)<$error){
 
                             echo    "   <table width=\"30%\" border=\"2px\" align=\"center\" class=\"table table-striped\">
                                             <tr align=\"center\">
                                                 <td> Área calculada </td>
-                                                <td>". $ite2 ." </td>
+                                                <td class=\"success\">". $ite2 ." </td>
                                             </tr>
 
                                             <tr align=\"center\">
                                                 <td> Error relativo </td>
-                                                <td>". abs($ite1-$ite2)." </td>
+                                                <td class=\"warning\">". abs($ite1-$ite2)." </td>
                                             </tr>
 
                                             <tr align=\"center\">
                                                 <td> n: </td>
-                                                <td>". $n ." en aumento de ".$aumento."</td>
+                                                <td class=\"success\">". $n ." en aumento de ".$aumento."</td>
                                             </tr>
                                         </table>";
                             break;
