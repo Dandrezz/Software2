@@ -10,14 +10,14 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-2.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-1.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
-  <title>Función 2</title>
+  <title>Función 1</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
-  <link rel="stylesheet" type="text/css" href="css/funci_n-2.css?crc=428626689" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/funci_n-1.css?crc=3972586762" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -27,55 +27,57 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="browser_width grpelem" id="u2633-bw">
-    <div id="u2633"><!-- group -->
-     <div class="clearfix" id="u2633_align_to_page">
-      <div class="clearfix grpelem" id="pmenuu2646"><!-- column -->
-       <nav class="MenuBar clearfix colelem" id="menuu2646"><!-- vertical box -->
-        <div class="MenuItemContainer clearfix colelem" id="u2675"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2678" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2681-4"><!-- content --><p id="u2681-2">Bienvenido</p></div></a>
+   <div class="browser_width grpelem" id="u2498-bw">
+    <div id="u2498"><!-- group -->
+     <div class="clearfix" id="u2498_align_to_page">
+      <div class="clearfix grpelem" id="pmenuu2511"><!-- column -->
+       <nav class="MenuBar clearfix colelem" id="menuu2511"><!-- vertical box -->
+        <div class="MenuItemContainer clearfix colelem" id="u2540"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2543" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2546-4"><!-- content --><p id="u2546-2">Bienvenido</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2668"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2669" href="funci%c3%b3n-1.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2670-4"><!-- content --><p id="u2670-2">Función 1</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2533"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2534" href="funci%c3%b3n-1.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2535-4"><!-- content --><p id="u2535-2">Función 1</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2654"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2657" href="funci%c3%b3n-2.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2659-4"><!-- content --><p id="u2659-2">Función 2</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2519"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2522" href="funci%c3%b3n-2.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2524-4"><!-- content --><p id="u2524-2">Función 2</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2661"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2662" href="funci%c3%b3n-3.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2665-4"><!-- content --><p id="u2665-2">Función 3</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2526"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2527" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2530-4"><!-- content --><p id="u2530-2">Función 3</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2647"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2650" href="funci%c3%b3n-4.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2653-4"><!-- content --><p id="u2653-2">Función 4</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2512"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2518-4"><!-- content --><p id="u2518-2">Función 4</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2647"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2650" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2512"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
        </nav>
-       <a class="nonblock nontext clearfix colelem" id="u2635-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2636"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2637"><!-- image --><img id="u2637_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
+       <a class="nonblock nontext clearfix colelem" id="u2500-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2501"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2502"><!-- image --><img id="u2502_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
-      <div class="clearfix grpelem" id="pu2639-4"><!-- column -->
-       <div class="h1 clearfix colelem" id="u2639-4"><!-- content -->
-        <h1>Función 2</h1>
+      <div class="clearfix grpelem" id="pu2504-4"><!-- column -->
+       <div class="h1 clearfix colelem" id="u2504-4"><!-- content -->
+        <h1>Función 1</h1>
        </div>
-       <div class="colelem" id="u2688"><!-- simple frame --></div>
+       <div class="colelem" id="u2553"><!-- simple frame --></div>
+
+
       </div>
      </div>
     </div>
    </div>
-   <div class="browser_width grpelem" id="u2684-bw">
-    <div class="gradient" id="u2684"><!-- group -->
-     <div class="clearfix" id="u2684_align_to_page">
-      <div class="clearfix grpelem" id="u2689"><!-- group -->
-       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2690" href="index.html"><!-- simple frame --></a>
+   <div class="browser_width grpelem" id="u2549-bw">
+    <div class="gradient" id="u2549"><!-- group -->
+     <div class="clearfix" id="u2549_align_to_page">
+      <div class="clearfix grpelem" id="u2554"><!-- group -->
+       <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u2555" href="index.html"><!-- simple frame --></a>
       </div>
-      <a class="nonblock nontext rounded-corners clearfix grpelem" id="u2685-4" href="https://www.epn.edu.ec/"><!-- content --><p>Sigue a mis creadores</p></a>
-      <a class="nonblock nontext museBGSize grpelem" id="u2641" href="https://www.instagram.com/memesepn/?hl=es"><!-- content --></a>
-      <a class="nonblock nontext museBGSize grpelem" id="u2632" href="https://twitter.com/EPNEcuador"><!-- content --></a>
-      <a class="nonblock nontext museBGSize grpelem" id="u2645" href="https://www.facebook.com/EPNQuito"><!-- content --></a>
+      <a class="nonblock nontext rounded-corners clearfix grpelem" id="u2550-4" href="https://www.epn.edu.ec/"><!-- content --><p>Sigue a mis creadores</p></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u2506" href="https://www.instagram.com/memesepn/?hl=es"><!-- content --></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u2497" href="https://twitter.com/EPNEcuador"><!-- content --></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u2510" href="https://www.facebook.com/EPNQuito"><!-- content --></a>
      </div>
     </div>
    </div>
-   <div class="museBGSize grpelem" id="u2687"><!-- content --></div>
+   <div class="museBGSize grpelem" id="u2552"><!-- content --></div>
    <div class="verticalspacer" data-offset-top="930" data-content-above-spacer="930" data-content-below-spacer="0"></div>
   </div>
   <!-- Other scripts -->

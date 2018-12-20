@@ -36,16 +36,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2813" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2816-4"><!-- content --><p id="u2816-2">Bienvenido</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2803"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2804" href="funci%c3%b3n-1.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2805-4"><!-- content --><p id="u2805-2">Función 1</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2804" href="funci%c3%b3n-1.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2805-4"><!-- content --><p id="u2805-2">Función 1</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2789"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2792" href="funci%c3%b3n-2.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2794-4"><!-- content --><p id="u2794-2">Función 2</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2792" href="funci%c3%b3n-2.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2794-4"><!-- content --><p id="u2794-2">Función 2</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2796"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2797" href="funci%c3%b3n-3.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2800-4"><!-- content --><p id="u2800-2">Función 3</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2797" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2800-4"><!-- content --><p id="u2800-2">Función 3</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2782"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2785" href="funci%c3%b3n-4.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2788-4"><!-- content --><p id="u2788-2">Función 4</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2785" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2788-4"><!-- content --><p id="u2788-2">Función 4</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2782"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2785" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
