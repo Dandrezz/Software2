@@ -19,6 +19,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
   <link rel="stylesheet" type="text/css" href="css/funci_n-3.css?crc=4063558413" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -55,9 +56,39 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
       <div class="clearfix grpelem" id="pu2774-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2774-4"><!-- content -->
-        <h1>Función 3</h1>
+        <h1>Función 3 - Integral por rectángulos</h1>
        </div>
        <div class="colelem" id="u2823"><!-- simple frame --></div>
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
+        
+       <form action="función-3.php" method="post">
+          <div class="ui input">
+            <input type="text" placeholder="Función: x**2" name="y">
+          </div><br><br>
+          <div class="ui input">
+            <input type="text" placeholder="Inicio" name="a">
+          </div>
+          <div class="ui input">
+            <input type="text" placeholder="Fin" name="b">
+          </div><br><br>
+          <div class="ui input">
+            <input type="text" placeholder="Cantidad de rectangulos" name="n">
+          </div><br><br>
+          <button class="ui button" type="submit" value="Cargar">
+            Calcular
+          </button><br><br>
+        </form>
+        <?php
+          if(isset($_POST['y'])&&isset($_POST['a'])&&isset($_POST['b'])&&isset($_POST['n'])){
+            $y=$_POST['y'];
+            $a=$_POST['a'];
+            $b=$_POST['b'];
+            $n=$_POST['n'];
+            include 'funciones/IntegralRectangulo.php';  
+            echo rectangulo($y,$a,$b,$n);
+          }
+        ?>
+        </div>
       </div>
      </div>
     </div>

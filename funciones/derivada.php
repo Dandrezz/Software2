@@ -1,5 +1,5 @@
 <?php  
-       function calcularDerivada($polinomio,$t){
+    function calcularDerivada($polinomio,$t){
         echo 'Función = '.$polinomio.'<br>';
         echo 'Punto de evaluación = '.$t.'<br>';
         $polinomio=str_replace('x','$x', $polinomio);
@@ -16,8 +16,4 @@
         }while($delta_t > pow(10, -1));
         return $derivada;
     }
-   
-    //    DiferenciaAtrasadas();
-    //    DiferenciaCentrada();
-    //    DiferenciaAdelantada();        
 ?>

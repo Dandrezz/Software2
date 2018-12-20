@@ -56,7 +56,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
       <div class="clearfix grpelem" id="pu2639-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2639-4"><!-- content -->
-        <h1>Función 2</h1>
+        <h1>Función 2 - Raiz de una función</h1>
        </div>
        <div class="colelem" id="u2688"><!-- simple frame --></div>
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
