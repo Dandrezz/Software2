@@ -135,7 +135,7 @@
                                             <tr align=\"center\">
                                                 <td> Error relativo </td>
                                                 <td class=\"warning\">". abs($ite1-$ite2)." </td>
-                                            </tr>
+                                            </tr> 
 
                                             <tr align=\"center\">
                                                 <td> n: </td>
