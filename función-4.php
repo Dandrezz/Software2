@@ -19,6 +19,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
   <link rel="stylesheet" type="text/css" href="css/funci_n-4.css?crc=64665871" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
