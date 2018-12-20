@@ -7,8 +7,9 @@
   
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
+   //Completado
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
+//Comentario
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-1.css"], "outOfDate":[]};
 </script>
