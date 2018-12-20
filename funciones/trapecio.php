@@ -21,6 +21,7 @@
 
 <h1 align="center">INTEGRACIÓN MÉTODO DE TRAPECIO</h1>
 
+<!-- Funcion mejorada -->
 
 <?php
 function f($x){
