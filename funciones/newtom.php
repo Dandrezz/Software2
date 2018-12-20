@@ -18,7 +18,7 @@ function newton($polinomio){
             $derivada=($fun1 - $fun2)/(2*$delta_t);
             $delta_t = $delta_t/2;
             $cont++;
-        }while($delta_t > pow(10, -1));
+        }while($delta_t > pow(10, -2));
         $aux=$xk;
         eval('$fu = '.$polinomio.';');
         $xk=$xk-$fu/$derivada;

@@ -62,9 +62,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
         
        <form action="función-2.php" method="post">
+
+       //Teoria de etodo de newton
+         <p>     </p>
           <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
+
           <button class="ui button" type="submit" value="Cargar">
             Calcular
           </button><br><br>

@@ -51,6 +51,7 @@
 
 <?php
     function f($x){
+        
 	    return $x*$x -4;
     } 
 
@@ -62,6 +63,46 @@
             return true;
          }
     }
+
+
+    function simpson($polinomio,$a,$b,$n){
+        echo 'Función = '.$polinomio.'<br>';
+        echo 'Integral entre los puntos '.$a.' y '.$b.'<br>';
+        echo 'Número de rectangulos '.$n.'<br>';
+        $polinomio=str_replace('x','$x', $polinomio);
+        $h=abs(($b-$a)/$n);
+        $area=0;
+        $fun1;
+        $x=$a;
+        $areaimpar;
+        $areapar;
+        for($i=1;$i<($n/2);$i++){
+
+            eval('$fun1 = '.str_replace('x','2*$i-1', $polinomio).';');
+            $rect=$fun1*$h;
+            $area=$area+$rect;
+            //$x=$x+2*$h;
+            $areaimpar = $areaimpar + $fun1;
+            //$areaimpar=$areaimpar+(f($a+((2*$i-1)*$h)));
+        }
+        $x=$a+$h;
+        for($i=1;$i<(($n/2)-1);$i++){
+            eval('$fun1 = '.eval('$fun1 = '.str_replace('x','2*$x-1', $polinomio).';');.';');
+            $rect=$fun1*$h;
+            $area=$area+$rect;
+            $x=$x+$h;
+            $areapar = $areapar + $fun1;
+            //$areapar=$areapar+(f($a+(2*$i*$h)));
+        }   
+
+        for($i=0;$i<$n;$i++){
+            eval('$fun1 = '.$polinomio.';');
+            $rect=$fun1*$h;
+            $area=$area+$rect;
+            $x=$x+$h;
+        }
+        echo $area;
+        }
 
     function validarEntero($a,$b,$n){
         $bool = true;
@@ -95,7 +136,7 @@
         
     }
 
-    function simpson($a,$b,$n){
+    function simpson2($a,$b,$n){
         $h=abs(($b-$a)/$n);
         $areapar=0;
         $areaimpar=0;
