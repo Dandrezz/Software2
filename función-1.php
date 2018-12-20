@@ -60,11 +60,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
        <div class="colelem" id="u2553"><!--simple frame--></div>
        <div class="colelem"><!-- simple frame --></div>
+
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
         
        <form action="función-1.php" method="post">
         <div class="ui input">
-            <input type="text" placeholder="Función: x*x" name="y">
+            <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
           <div class="ui input">
             <input type="text" placeholder="Punto de evaluación: 2" name="x">
@@ -78,7 +79,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
             $y=$_POST['y'];
             $x=$_POST['x'];
             include 'funciones/derivada.php';  
-            echo calcularDerivada($y,$x);
+            echo "Calculo de la derivada = ".calcularDerivada($y,$x);
           }
         ?>
         </div>

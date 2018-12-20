@@ -19,6 +19,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
   <link rel="stylesheet" type="text/css" href="css/funci_n-2.css?crc=428626689" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -58,6 +59,24 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <h1>Función 2</h1>
        </div>
        <div class="colelem" id="u2688"><!-- simple frame --></div>
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
+        
+       <form action="función-2.php" method="post">
+          <div class="ui input">
+            <input type="text" placeholder="Función: x**2" name="y">
+          </div><br><br>
+          <button class="ui button" type="submit" value="Cargar">
+            Calcular
+          </button><br><br>
+        </form>
+        <?php
+          if(isset($_POST['y'])){
+            $y=$_POST['y'];
+            include 'funciones/newtom.php';  
+            echo newton($y);
+          }
+        ?>
+        </div>
       </div>
      </div>
     </div>
