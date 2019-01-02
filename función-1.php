@@ -4,21 +4,20 @@
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2018.1.0.386"/>
-  
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
-   //Completado
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-//Comentario
+
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-1.css"], "outOfDate":[]};
 </script>
-  
+
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 1</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
-  <link rel="stylesheet" type="text/css" href="css/funci_n-1.css?crc=3972586762" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/funci_n-1.css?crc=153865586" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
   <!-- JS includes -->
@@ -55,22 +54,31 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2500-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2501"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2502"><!-- image --><img id="u2502_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
-      <div class="clearfix grpelem" id="pu2504-4" style="all: none;"><!-- column -->
+      <div class="clearfix grpelem" id="pu2504-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2504-4"><!-- content -->
-        <h1>Función 1 - Derivada Centrada</h1>
+        <h1>Función 1</h1>
        </div>
-       <div class="colelem" id="u2553"><!--simple frame--></div>
-       <div class="colelem"><!-- simple frame --></div>
+       <div class="colelem" id="u2553"><!-- simple frame --></div>
+       <div class="clearfix colelem" id="u4605-4"><!-- content -->
+        <p>En integración numérica, una forma de aproximar una integral definida en un intervalo [a,b] es mediante la regla del trapecio, es decir, que sobre cada subintervalo en el que se divide [a,b] se aproxima f por un polinomio de primer grado, para luego calcular la integral como suma de las áreas de los trapecios formados en esos subintervalos . El método utilizado para la regla de Simpson sigue la misma filosofía, pero aproximando los subintervalos de f mediante polinomios de segundo grado.
+        </p>
+        <p>Teniendo en cuenta lo mencionado, se presenta el calculo de la integracion numerica.</p>
+        <br></br>
+      </p>Ingrese la función:</p>
+       </div>
 
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
-        
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
+
        <form action="función-1.php" method="post">
         <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
+        </p>Ingrese el punto de evaluación:</p>
           <div class="ui input">
+
             <input type="text" placeholder="Punto de evaluación: 2" name="x">
           </div><br><br>
+
           <button class="ui button" type="submit" value="Cargar">
             Calcular
           </button><br><br>
@@ -79,12 +87,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           if(isset($_POST['y'])&&isset($_POST['x'])){
             $y=$_POST['y'];
             $x=$_POST['x'];
-            include 'funciones/derivada.php';  
+            include 'funciones/derivada.php';
             echo "Calculo de la derivada = ".calcularDerivada($y,$x);
           }
         ?>
         </div>
-        
+
       </div>
      </div>
     </div>
