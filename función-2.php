@@ -4,15 +4,15 @@
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2018.1.0.386"/>
-  
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
+//56654564654
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-2.css"], "outOfDate":[]};
 </script>
-  
+
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 2</title>
   <!-- CSS -->
@@ -59,13 +59,23 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <h1>Función 2 - Raiz de una función</h1>
        </div>
        <div class="colelem" id="u2688"><!-- simple frame --></div>
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
-        
-       <form action="función-2.php" method="post">
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
+         <div class="clearfix colelem" id="u4640-4"><!-- content -->
 
-       //Teoria de etodo de newton
-         <p>     </p>
+          <p>En análisis numérico la regla del trapecio es un método de integración, es decir,
+             un método para calcular aproximadamente el valor de una integral definida. La regla se basa en aproximar el valor de la integral
+             de&nbsp; f(x) por el de la función lineal, que pasa a través de los puntos (a,f(a)); y
+             (b,f(b)). La integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal.</p>
+             <br> </br>
+         </div>
+         <div>
+           <br> </br>
+           <p>Ingrese la función.</p>
+           <p> </p>
+         </div>
+       <form action="función-2.php" method="post">
           <div class="ui input">
+
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
 
@@ -76,7 +86,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <?php
           if(isset($_POST['y'])){
             $y=$_POST['y'];
-            include 'funciones/newtom.php';  
+            include 'funciones/newtom.php';
             echo newton($y);
           }
         ?>

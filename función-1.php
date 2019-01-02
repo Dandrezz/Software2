@@ -66,7 +66,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <br></br>
       </p>Ingrese la función:</p>
        </div>
-       //comentario
+
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
 
        <form action="función-1.php" method="post">
