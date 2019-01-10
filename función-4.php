@@ -64,7 +64,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <p>En matemáticas, la derivada de una función mide la rapidez con la que cambia el valor de dicha función matemática, según cambie el valor de su variable independiente. La derivada de una función es un concepto local, es decir, se calcula como el límite de la rapidez de cambio media de la función en cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por ello se habla del valor de la derivada de una función en un punto dado.</p>
          <br/>
        </div>
-
+       <img src="images/funciones/Simpsons.png" alt="Trulli" width="320" >
      <p>Ingrese la función.</p>
         <form action="función-3.php" method="post">
            <div class="ui input">

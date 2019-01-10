@@ -66,10 +66,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
              un método para calcular aproximadamente el valor de una integral definida. La regla se basa en aproximar el valor de la integral
              de&nbsp; f(x) por el de la función lineal, que pasa a través de los puntos (a,f(a)); y
              (b,f(b)). La integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal.</p>
-             <br> </br>
+             <br>
+             <img src="images/funciones/Newton_iteration.png" alt="Trulli" width="320" height="200">
+             <br>
          </div>
          <div>
-           <br> </br>
+           <br> <br>
            <p>Ingrese la función.</p>
            <p> </p>
          </div>

@@ -1,6 +1,6 @@
 <?php
 function newton($polinomio){
-    echo 'Función = '.$polinomio.'<br>';
+    $ori=$polinomio;
     $polinomio=str_replace('x','$xk', $polinomio);
     $delta_t = 0.1;
     $cont = 0;
@@ -28,6 +28,18 @@ function newton($polinomio){
           break;
         }
       }
-      echo "Raiz = ".$xk;
+      if($xk<0.0001)$xk=0;
+    echo '<table class="ui definition table">
+    <tbody>
+      <tr>
+        <td class="two wide column">Funcion</td>
+        <td>'.$ori.'</td>
+      </tr>
+      <tr>
+        <td>Raiz</td>
+        <td>'.$xk.'</td>
+      </tr>
+    </tbody>
+  </table>';
 }
 ?>

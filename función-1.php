@@ -65,6 +65,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
        <p>En integración numérica, una forma de aproximar una integral definida en un intervalo [a,b] es mediante la regla del trapecio, es decir, que sobre cada subintervalo en el que se divide [a,b] se aproxima f por un polinomio de primer grado, para luego calcular la integral como suma de las áreas de los trapecios formados en esos subintervalos . El método utilizado para la regla de Simpson sigue la misma filosofía, pero aproximando los subintervalos de f mediante polinomios de segundo grado.
         </p>
+
+        <img src="images/funciones/derivada.png" alt="Trulli" width="500" height="333">
+    
         <p>Teniendo en cuenta lo mencionado, se presenta el calculo de la integracion numerica.</p>
         <br>
        <form action="función-1.php" method="post">
@@ -83,7 +86,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
             $y=$_POST['y'];
             $x=$_POST['x'];
             include 'funciones/derivada.php';  
-            echo "Calculo de la derivada = ".calcularDerivada($y,$x);
+            calcularDerivada($y,$x);
           }
         ?>
         </div>

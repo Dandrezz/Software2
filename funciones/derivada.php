@@ -1,7 +1,6 @@
 <?php  
     function calcularDerivada($polinomio,$t){
-        echo 'Función = '.$polinomio.'<br>';
-        echo 'Punto de evaluación = '.$t.'<br>';
+        $ori = $polinomio;
         $polinomio=str_replace('x','$x', $polinomio);
         $delta_t = 0.1;
         $cont = 0;
@@ -14,6 +13,21 @@
             $delta_t = $delta_t/2;
             $cont++;
         }while($delta_t > pow(10, -1));
-        return $derivada;
+            echo '<table class="ui definition table">
+                <tbody>
+                  <tr>
+                    <td class="three wide column">Función</td>
+                    <td>'.$ori.'</td>
+                  </tr>
+                  <tr>
+                    <td>Punto de evaluación</td>
+                    <td>'.$t.'</td>
+                  </tr>
+                  <tr>
+                    <td>Calculo de la derivada</td>
+                    <td>'.$derivada.'</td>
+                  </tr>
+                </tbody>
+              </table>';
     }
 ?>
