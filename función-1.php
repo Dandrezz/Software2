@@ -70,10 +70,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           function myFunction(opc) {
             switch (opc){
               case 0: 
-              alert("En esta sección podrá ingresar la función. \n \t- Para utilizar exponentes utilice **. \t- Si necesita usar radicales, utilice exponentes en fracción");
+              alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
+              break;
 
               case 1: 
               alert("Ingresar el punto en el que se desea calcular la derivada.");
+              break;
               }
           }
         </script>
@@ -84,16 +86,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <br>
        <form action="función-1.php" method="post">
        <img src="images/ojo.jpg" width="25" onclick="myFunction(0)">
-        <div class="ui input">
+          <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
-          <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
+        <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
           <div class="ui input">
             <input type="text" placeholder="Punto de evaluación: 2" name="x">
           </div><br><br>
-          <button class="ui button" type="submit" value="Cargar">
+        <button class="ui button" type="submit" value="Cargar">
             Calcular
-          </button><br><br>
+        </button><br><br>
           <script type="text/javascript" src="js/intro.js"></script>
         </form>
         <?php

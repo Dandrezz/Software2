@@ -58,10 +58,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="h1 clearfix colelem" id="u2774-4"><!-- content -->
         <h1>Función 3 - Integral por rectángulos</h1>
        </div>
+       <script>
+          function myFunction(opc) {
+            switch (opc){
+              case 0: 
+              alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
+              break;
+
+              case 1: 
+              alert("Ingresar límite inferior y superior donde se analizará la integral.");
+              break;
+
+              case 2: 
+              alert("Ingresar el número de rectangulos en que se dividirá la distancia exitente entre el límite inferior y superior de la integral.\nNOTA: Mientras mayor sea el número de rectángulos, mayor precisión tendrá el cálculo.");
+              break;
+
+                  }
+          }
+        </script>
        <div class="colelem" id="u2823"><!-- simple frame --></div>
-
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
-
          <div class="clearfix colelem" id="u4659-8"><!-- content -->
           <p>Es un método de interpolación polinómica. Aunque sólo existe un único polinomio que interpola una serie de puntos, existen diferentes formas de calcularlo. Este método es útil para situaciones que requieran un número bajo de puntos para interpolar, ya que a medida que crece el número de puntos, también lo hace el grado del polinomio.</p>
           <p>Existen ciertas ventajas en el uso de este polinomio respecto al polinomio interpolador de Lagrange. Por ejemplo, si fuese necesario añadir algún nuevo punto o nodo a la función, tan sólo habría que calcular este último punto, dada la relación de recurrencia existente y demostrada anteriormente.</p>
@@ -69,24 +85,21 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          </div>
          <img src="images/funciones/integral.gif" alt="Trulli" width="520" >
          <p>Ingrese la función.</p>
-
-
        <form action="función-3.php" method="post">
+       <img src="images/ojo.jpg" width="25" onclick="myFunction(0)">
           <div class="ui input">
-
-
-
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
-          <p>Ingrese el punto inicial y final para el analisis de la función.</p>
+            <p>Ingrese el punto inicial y final para el analisis de la función.</p>
+        <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
           <div class="ui input">
-
             <input type="text" placeholder="Inicio" name="a">
           </div>
-          <div class="ui input">
+           <div class="ui input">
             <input type="text" placeholder="Fin" name="b">
           </div><br><br>
           <p>Ingrese la cantidad de rectángulos.</p>
+        <img src="images/ojo.jpg" width="25" onclick="myFunction(2)">
           <div class="ui input">
             <input type="text" placeholder="Cantidad de rectangulos" name="n">
           </div><br><br>

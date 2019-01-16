@@ -75,9 +75,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
            <p>Ingrese la función.</p>
            <p> </p>
          </div>
-       <form action="función-2.php" method="post">
-          <div class="ui input">
+        <script>
+            function myFunction() {
+              alert("En esta sección podrá ingresar la función en la cual se calculará la raíces.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5).");
+              }
+            
+        </script>
 
+       <form action="función-2.php" method="post">
+       <img src="images/ojo.jpg" width="25" onclick="myFunction()">
+          <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
 
