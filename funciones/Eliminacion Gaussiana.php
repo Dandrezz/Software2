@@ -19,12 +19,18 @@ if(isset($_POST['a00']) && isset($_POST['a01']) && isset($_POST['a02'])
   $b[2]=$_POST['b2'];
 
 function imprimirMatriz($matriz){
+  echo '<table class="ui celled table">
+  <thead><tbody>';
 for($i=0;$i<sizeof($matriz);$i++){
+  echo '<tr>';
   for($j=0;$j<sizeof($matriz);$j++){
-    echo " ".$matriz[$i][$j]." ";
+    // echo " ".$matriz[$i][$j]." ";
+    echo '<td data-label="a1">'.$matriz[$i][$j].'</td>';
   }
-  echo "<br>";
+  echo '<tr>';
 }
+echo "</tbody>
+</table><br>";
 }
 
 
@@ -41,7 +47,7 @@ for ($i = 0; $i < sizeof($a)-1; $i++) {
            }
        }
 
-       echo "Matriz escalonada<br>";
+       echo '<h4 class="ui header">Matriz escalonada</h4>';
        imprimirMatriz($a);
        echo "<br>";
        for($i=0;$i<sizeof($a);$i++){
@@ -56,12 +62,17 @@ for ($i = 0; $i < sizeof($a)-1; $i++) {
 
               $x[$i]=(1/$a[$i][$i])*($b[$i]-$suma);
           }
-
+          echo '<table class="ui celled table">
+          <thead><tbody>';
         for($i = 0; $i < sizeof($x) ; $i++){
-          echo "x[".$i."] = ".$x[$i]."<br>";
+
+          echo "<tr><td>x[".$i."] </td><td> ".$x[$i]."</td></tr>";
         }
+        echo "</tbody>
+        </table><br>";
+
   }
-echo "<br>Matriz original<br>";
+echo '<h4 class="ui header">Matriz original </h4>';
 imprimirMatriz($a);
 echo "<br>";
 eliminacionGaussiana();
