@@ -7,8 +7,9 @@
   
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
+   //Completado
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
+//Comentario
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-1.css"], "outOfDate":[]};
 </script>
@@ -20,6 +21,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="stylesheet" type="text/css" href="css/funci_n-1.css?crc=3972586762" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
+  <link href="js/introjs.css" rel="stylesheet">
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -65,24 +67,46 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="colelem"><!-- simple frame --></div>
 
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
-        
+       <p>En integración numérica, una forma de aproximar una integral definida en un intervalo [a,b] es mediante la regla del trapecio, es decir, que sobre cada subintervalo en el que se divide [a,b] se aproxima f por un polinomio de primer grado, para luego calcular la integral como suma de las áreas de los trapecios formados en esos subintervalos . El método utilizado para la regla de Simpson sigue la misma filosofía, pero aproximando los subintervalos de f mediante polinomios de segundo grado.
+        </p>
+        <script>
+          function myFunction(opc) {
+            switch (opc){
+              case 0: 
+              alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
+              break;
+
+              case 1: 
+              alert("Ingresar el punto en el que se desea calcular la derivada.");
+              break;
+              }
+          }
+        </script>
+
+        <img src="images/funciones/derivada.png" alt="Trulli" width="500" height="333">
+    
+        <p>Teniendo en cuenta lo mencionado, se presenta el calculo de la integracion numerica.</p>
+        <br>
        <form action="función-1.php" method="post">
-        <div class="ui input">
+       <img src="images/ojo.jpg" width="25" onclick="myFunction(0)">
+          <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
           </div><br><br>
+        <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
           <div class="ui input">
             <input type="text" placeholder="Punto de evaluación: 2" name="x">
           </div><br><br>
-          <button class="ui button" type="submit" value="Cargar">
+        <button class="ui button" type="submit" value="Cargar">
             Calcular
-          </button><br><br>
+        </button><br><br>
+          <script type="text/javascript" src="js/intro.js"></script>
         </form>
         <?php
           if(isset($_POST['y'])&&isset($_POST['x'])){
             $y=$_POST['y'];
             $x=$_POST['x'];
             include 'funciones/derivada.php';  
-            echo "Calculo de la derivada = ".calcularDerivada($y,$x);
+            calcularDerivada($y,$x);
           }
         ?>
         </div>

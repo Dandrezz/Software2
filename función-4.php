@@ -4,7 +4,7 @@
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2018.1.0.386"/>
-  
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -12,7 +12,7 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-4.css"], "outOfDate":[]};
 </script>
-  
+
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 4</title>
   <!-- CSS -->
@@ -61,19 +61,47 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="h1 clearfix colelem" id="u2909-4"><!-- content -->
         <h1>Función 4 - Integral por metodo de Simpson</h1>
        </div>
+       <script>
+           function myFunction(opc) {
+            switch (opc){
+              case 0: 
+              alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
+              break;
+
+              case 1: 
+              alert("Ingresar límite inferior y superior donde se analizará la integral.");
+              break;
+
+              case 2: 
+              alert("Ingresar el número de rectangulos en que se dividirá la distancia exitente entre el límite inferior y superior de la integral.\nNOTA: Mientras mayor sea el número de rectángulos, mayor precisión tendrá el cálculo.");
+              break;
+
+                  }
+          }
+        </script>
        <div class="colelem" id="u2958"><!-- simple frame --></div>
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
-        
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
+       <div class="clearfix colelem" id="u4666-4"><!-- content -->
+         <p>En matemáticas, la derivada de una función mide la rapidez con la que cambia el valor de dicha función matemática, según cambie el valor de su variable independiente. La derivada de una función es un concepto local, es decir, se calcula como el límite de la rapidez de cambio media de la función en cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por ello se habla del valor de la derivada de una función en un punto dado.</p>
+         <br/>
+       </div>
+       <img src="images/funciones/Simpsons.png" alt="Trulli" width="320" >
+     <p>Ingrese la función.</p>
         <form action="función-3.php" method="post">
-           <div class="ui input">
+        <img src="images/ojo.jpg" width="25" onclick="myFunction(0)">
+          <div class="ui input">
              <input type="text" placeholder="Función: x**2" name="y">
            </div><br><br>
+           <p>Ingrese el punto inicial y final para el analisis de la función.</p>
+           <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
            <div class="ui input">
              <input type="text" placeholder="Inicio" name="a">
            </div>
            <div class="ui input">
              <input type="text" placeholder="Fin" name="b">
            </div><br><br>
+           <p>Ingrese la cantidad de rectángulos.</p>
+           <img src="images/ojo.jpg" width="25" onclick="myFunction(2)">
            <div class="ui input">
              <input type="text" placeholder="Cantidad de rectangulos" name="n">
            </div><br><br>
@@ -87,7 +115,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
              $a=$_POST['a'];
              $b=$_POST['b'];
              $n=$_POST['n'];
-             include 'funciones/IntegralRectangulo.php';  
+             include 'funciones/IntegralRectangulo.php';
              echo rectangulo($y,$a,$b,$n);
            }
          ?>

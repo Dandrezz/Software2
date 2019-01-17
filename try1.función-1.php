@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Función 2</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=83274698"/>
-  <link rel="stylesheet" type="text/css" href="css/funci_n-2.css?crc=428626689" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/funci_n-1.css?crc=428626689" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/index.css?crc=3946665806" id="pagesheet"/>
   <link rel="stylesheet" type="text/css" href="css/semantic.css"/>
   <!-- JS includes -->
@@ -37,10 +37,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2678" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2681-4"><!-- content --><p id="u2681-2">Bienvenido</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2668"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2669" href="funci%c3%b3n-1.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2670-4"><!-- content --><p id="u2670-2">Función 1</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2669" href="funci%c3%b3n-1.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2670-4"><!-- content --><p id="u2670-2">Función 1</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2654"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2657" href="funci%c3%b3n-2.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2659-4"><!-- content --><p id="u2659-2">Función 2</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2657" href="funci%c3%b3n-2.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2659-4"><!-- content --><p id="u2659-2">Función 2</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2661"><!-- horizontal box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2662" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2665-4"><!-- content --><p id="u2665-2">Función 3</p></div></a>
@@ -51,44 +51,34 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer clearfix colelem" id="u2647"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2650" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
-         <div class="MenuItemContainer clearfix colelem" id="u2647"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
-        </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2635-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2636"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2637"><!-- image --><img id="u2637_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
       <div class="clearfix grpelem" id="pu2639-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2639-4"><!-- content -->
-        <h1>Función 2 - Raiz de una función</h1>
+       
+       <h1>Función 1</h1> 
        </div>
-       <div class="colelem" id="u2688"><!-- simple frame --></div>
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
-         <div class="clearfix colelem" id="u4640-4"><!-- content -->
+       <div class="colelem" id="u2553"></div>
+       
+       <div class="clearfix colelem" id="u4605-4">
+        <p>En integración numérica, una forma de aproximar una integral definida en un intervalo [a,b] es mediante la regla del trapecio, es decir, que sobre cada subintervalo en el que se divide [a,b] se aproxima f por un polinomio de primer grado, para luego calcular la integral como suma de las áreas de los trapecios formados en esos subintervalos . El método utilizado para la regla de Simpson sigue la misma filosofía, pero aproximando los subintervalos de f mediante polinomios de segundo grado.
+        </p>
+        <p>Teniendo en cuenta lo mencionado, se presenta el calculo de la integracion numerica.</p>
+        <br><br>
+      </p>Ingrese la función:</p>
+       </div>
 
-          <p>En análisis numérico la regla del trapecio es un método de integración, es decir,
-             un método para calcular aproximadamente el valor de una integral definida. La regla se basa en aproximar el valor de la integral
-             de&nbsp; f(x) por el de la función lineal, que pasa a través de los puntos (a,f(a)); y
-             (b,f(b)). La integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal.</p>
-             <br>
-             <img src="images/funciones/Newton_iteration.png" alt="Trulli" width="320" height="200">
-             <br>
-         </div>
-         <div>
-           <br> <br>
-           <p>Ingrese la función.</p>
-           <p> </p>
-         </div>
-        <script>
-            function myFunction() {
-              alert("En esta sección podrá ingresar la función en la cual se calculará la raíces.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5).");
-              }
-            
-        </script>
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;">content -->
 
-       <form action="función-2.php" method="post">
-       <img src="images/ojo.jpg" width="25" onclick="myFunction()">
-          <div class="ui input">
+       <form action="función-1.php" method="post">
+         <div class="ui input">
             <input type="text" placeholder="Función: x**2" name="y">
+          </div><br><br> 
+        </p>Ingrese el punto de evaluación:</p>
+          <div class="ui input">
+
+            <input type="text" placeholder="Punto de evaluación: 2" name="x">
           </div><br><br>
 
           <button class="ui button" type="submit" value="Cargar">
@@ -96,11 +86,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           </button><br><br>
         </form>
         <?php
-          if(isset($_POST['y'])){
+          if(isset($_POST['y'])&&isset($_POST['x'])){
             $y=$_POST['y'];
-            include 'funciones/newtom.php';
-            echo newton($y);
+            $x=$_POST['x'];
+            include 'funciones/derivada.php';
+            echo "Calculo de la derivada = ".calcularDerivada($y,$x);
           }
+        ?>
         ?>
         </div>
       </div>
