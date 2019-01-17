@@ -46,50 +46,89 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2935-4"><!-- content --><p id="u2935-2">Función 3</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 4</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu  transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 4</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
-         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
+         <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 6</p></div></a>
          </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2905-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2906"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2907"><!-- image --><img id="u2907_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
       <div class="clearfix grpelem" id="pu2909-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2909-4"><!-- content -->
-        <h1>Función 4 - Integral por metodo de Simpson</h1>
+        <h1>Eliminación de Gauss-Jordan</h1>
        </div>
        <div class="colelem" id="u2958"><!-- simple frame --></div>
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
-        
-        <form action="función-3.php" method="post">
-           <div class="ui input">
-             <input type="text" placeholder="Función: x**2" name="y">
-           </div><br><br>
-           <div class="ui input">
-             <input type="text" placeholder="Inicio" name="a">
-           </div>
-           <div class="ui input">
-             <input type="text" placeholder="Fin" name="b">
-           </div><br><br>
-           <div class="ui input">
-             <input type="text" placeholder="Cantidad de rectangulos" name="n">
-           </div><br><br>
-           <button class="ui button" type="submit" value="Cargar">
-             Calcular
-           </button><br><br>
-         </form>
+        <p>En matemáticas, la eliminación de Gauss Jordan, llamada así en honor de Carl Friedrich Gauss y Wilhelm Jordan es un algoritmo del álgebra lineal que se usa para determinar las soluciones de un sistema de ecuaciones lineales, para encontrar matrices e inversas.
+        </p>
+        <p>Algoritmo de eliminación de Gauss-Jordan:</p>
+        <ol class="ui list">
+          <li>Ir a la primera columna no cero de izquierda a derecha.</li>
+          <li>Si la primera fila tiene un cero en esta columna, intercambiarlo con otra que no lo tenga.</li>
+          <li>Luego, obtener ceros debajo de este elemento delantero, sumando múltiplos adecuados del renglón superior a los renglones debajo de él.</li>
+          <li>Cubrir el renglón superior y repetir el proceso anterior con la submatriz restante. Repetir con el resto de los renglones (en este punto la matriz se encuentra en forma escalonada).</li>
+          <li>Comenzando con el último renglón no cero, avanzar hacia arriba: para cada renglón obtener 1 delantero e introducir ceros arriba de éste sumando múltiplos correspondientes a los renglones correspondientes.</li>
+        </ol>
+<div class="ui input">
+  <form action="función-6.php" method="post">
+  <table class="ui celled table">
+  <thead>
+    <tr>
+      <th>a1</th>
+      <th>a2</th>
+      <th>a3</th>
+      <th>b</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input name="a00" value="2" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a01" value="3" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a02" value="1" step="1" maxlength="4" size="4"/></td>
+      <td ><input name="b0"  value="13" step="1" maxlength="4" size="4"/></td>
+    </tr>
+    <tr>
+      <td><input name="a10" value="1" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a11" value="3" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a12" value="1" step="1" maxlength="4" size="4"/></td>
+      <td ><input name="b1" value="5" step="1" maxlength="4" size="4"/></td>
+    </tr>
+    <tr>
+      <td><input name="a20" value="1" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a21" value="3" step="1" maxlength="4" size="4"/></td>
+      <td><input name="a22" value="15" step="1" maxlength="4" size="4"/></td>
+      <td ><input name="b2" value="40" step="1" maxlength="4" size="4"/></td>
+    </tr>
+  </tbody>
+</table>
+    <button class="ui button" type="submit">Calcular</button>
+  </form>
+</div>
          <?php
-           if(isset($_POST['y'])&&isset($_POST['a'])&&isset($_POST['b'])&&isset($_POST['n'])){
-             $y=$_POST['y'];
-             $a=$_POST['a'];
-             $b=$_POST['b'];
-             $n=$_POST['n'];
-             include 'funciones/IntegralRectangulo.php';  
-             echo rectangulo($y,$a,$b,$n);
-           }
+      if(isset($_POST['a00']) && isset($_POST['a01']) && isset($_POST['a02'])
+      && isset($_POST['a10']) && isset($_POST['a11']) && isset($_POST['a12'])
+      && isset($_POST['a20']) && isset($_POST['a21']) && isset($_POST['a22'])
+      && isset($_POST['b0']) && isset($_POST['b1']) && isset($_POST['b2'])){
+
+        $a[0][0]=$_POST['a00'];
+        $a[0][1]=$_POST['a01'];
+        $a[0][2]=$_POST['a02'];
+        $a[1][0]=$_POST['a10'];
+        $a[1][1]=$_POST['a11'];
+        $a[1][2]=$_POST['a12'];
+        $a[2][0]=$_POST['a20'];
+        $a[2][1]=$_POST['a21'];
+        $a[2][2]=$_POST['a22'];
+
+        $b[0]=$_POST['b0'];
+        $b[1]=$_POST['b1'];
+        $b[2]=$_POST['b2'];
+  include 'funciones/Eliminacion Gaussiana.php'; 
+}
          ?>
          </div>
       </div>
