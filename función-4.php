@@ -51,6 +51,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
+         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
+         </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2905-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2906"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2907"><!-- image --><img id="u2907_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
