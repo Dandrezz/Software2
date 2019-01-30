@@ -4,7 +4,7 @@
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2018.1.0.386"/>
-  
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -12,7 +12,7 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-4.css"], "outOfDate":[]};
 </script>
-  
+
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 4</title>
   <!-- CSS -->
@@ -45,14 +45,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2935-4"><!-- content --><p id="u2935-2">Función 3</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu  transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 4</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2938"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2939" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2940-4"><!-- content --><p id="u2940-2">Función 4</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
          <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 6</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix colelem" id="u2938"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2939" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2940-4"><!-- content --><p id="u2940-2">Acerca de...</p></div></a>
          </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2905-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2906"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2907"><!-- image --><img id="u2907_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
@@ -62,7 +65,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <h1>Eliminación de Gauss-Jordan</h1>
        </div>
        <div class="colelem" id="u2958"><!-- simple frame --></div>
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
         <p>En matemáticas, la eliminación de Gauss Jordan, llamada así en honor de Carl Friedrich Gauss y Wilhelm Jordan es un algoritmo del álgebra lineal que se usa para determinar las soluciones de un sistema de ecuaciones lineales, para encontrar matrices e inversas.
         </p>
         <p>Algoritmo de eliminación de Gauss-Jordan:</p>
@@ -127,7 +130,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         $b[0]=$_POST['b0'];
         $b[1]=$_POST['b1'];
         $b[2]=$_POST['b2'];
-  include 'funciones/Eliminacion Gaussiana.php'; 
+  include 'funciones/Eliminacion Gaussiana.php';
 }
          ?>
          </div>

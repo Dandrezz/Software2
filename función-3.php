@@ -51,9 +51,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer clearfix colelem" id="u2782"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2785" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
-         <div class="MenuItemContainer clearfix colelem" id="u2782"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
-        </div>
+         <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
+          </div>
+        <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Acerca de ...</p></div></a>
+         </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2770-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2771"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2772"><!-- image --><img id="u2772_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
@@ -64,15 +67,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <script>
           function myFunction(opc) {
             switch (opc){
-              case 0: 
+              case 0:
               alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
               break;
 
-              case 1: 
+              case 1:
               alert("Ingresar límite inferior y superior donde se analizará la integral.");
               break;
 
-              case 2: 
+              case 2:
               alert("Ingresar el número de rectangulos en que se dividirá la distancia exitente entre el límite inferior y superior de la integral.\nNOTA: Mientras mayor sea el número de rectángulos, mayor precisión tendrá el cálculo.");
               break;
 

@@ -4,7 +4,7 @@
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2018.1.0.386"/>
-  
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
    //Completado
@@ -13,7 +13,7 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-1.css"], "outOfDate":[]};
 </script>
-  
+
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 1</title>
   <!-- CSS -->
@@ -56,6 +56,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <div class="MenuItemContainer clearfix colelem" id="u2512"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2515" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
          </div>
+         <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Acerca de ...</p></div></a>
+          </div>
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2500-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2501"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2502"><!-- image --><img id="u2502_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
@@ -66,17 +69,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="colelem" id="u2553"><!--simple frame--></div>
        <div class="colelem"><!-- simple frame --></div>
 
-       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->                  
+       <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
        <p>En integración numérica, una forma de aproximar una integral definida en un intervalo [a,b] es mediante la regla del trapecio, es decir, que sobre cada subintervalo en el que se divide [a,b] se aproxima f por un polinomio de primer grado, para luego calcular la integral como suma de las áreas de los trapecios formados en esos subintervalos . El método utilizado para la regla de Simpson sigue la misma filosofía, pero aproximando los subintervalos de f mediante polinomios de segundo grado.
         </p>
         <script>
           function myFunction(opc) {
             switch (opc){
-              case 0: 
+              case 0:
               alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
               break;
 
-              case 1: 
+              case 1:
               alert("Ingresar el punto en el que se desea calcular la derivada.");
               break;
               }
@@ -84,7 +87,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         </script>
 
         <img src="images/funciones/derivada.png" alt="Trulli" width="500" height="333">
-    
+
         <p>Teniendo en cuenta lo mencionado, se presenta el calculo de la integracion numerica.</p>
         <br>
        <form action="función-1.php" method="post">
@@ -105,12 +108,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           if(isset($_POST['y'])&&isset($_POST['x'])){
             $y=$_POST['y'];
             $x=$_POST['x'];
-            include 'funciones/derivada.php';  
+            include 'funciones/derivada.php';
             calcularDerivada($y,$x);
           }
         ?>
         </div>
-        
+
       </div>
      </div>
     </div>
