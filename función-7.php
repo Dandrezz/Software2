@@ -45,87 +45,188 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="funci%c3%b3n-3.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2935-4"><!-- content --><p id="u2935-2">Función 3</p></div></a>
         </div>
-        <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 4</p></div></a>
+        <div class="MenuItemContainer clearfix colelem" id="u2938"><!-- horizontal box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2939" href="funci%c3%b3n-4.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2940-4"><!-- content --><p id="u2940-2">Función 4</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u2931"><!-- horizontal box -->
           <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2932" href="ProyectoFinal/Proyecto.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 5</p></div></a>
          </div>
-         <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
-              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
-          </div>
-          <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
-              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-7.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 7</p></div></a>
-          </div>
-         <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
-              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Acerca de ...</p></div></a>
-          </div>
+         <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2923-2">Función 6</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix colelem" id="u2917"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition rounded-corners clearfix grpelem" id="u2920" href="funci%c3%b3n-7.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2923-4"><!-- content --><p id="u2940-2">Función 7</p></div></a>
+         </div>
+         <div class="MenuItemContainer clearfix colelem" id="u2938"><!-- horizontal box -->
+          <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u2939" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2940-4"><!-- content --><p id="u2940-2">Acerca de...</p></div></a>
+         </div>
+         
        </nav>
        <a class="nonblock nontext clearfix colelem" id="u2905-5" href="http://www.musefree.com"><!-- content --><p>Made with <span class="actAsInlineDiv normal_text" id="u2906"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u2907"><!-- image --><img id="u2907_img" src="images/heart.png?crc=117585526" alt="" width="11" height="9"/></span></span> by °Kelvin</p></a>
       </div>
       <div class="clearfix grpelem" id="pu2909-4"><!-- column -->
        <div class="h1 clearfix colelem" id="u2909-4"><!-- content -->
-        <h1>Función 4 - Integral por metodo de Simpson</h1>
+       <h1>Descomposición LU</h1>
        </div>
-       <script>
-           function myFunction(opc) {
-            switch (opc){
-              case 0:
-              alert("En esta sección podrá ingresar la función.\n\t- Para utilizar exponentes utilice **.\n\t- Si necesita usar radicales, utilice exponentes en fracción.\n\t- La función debe ingresarse en base a x (ej. x+5)");
-              break;
-
-              case 1:
-              alert("Ingresar límite inferior y superior donde se analizará la integral.");
-              break;
-
-              case 2:
-              alert("Ingresar el número de rectangulos en que se dividirá la distancia exitente entre el límite inferior y superior de la integral.\nNOTA: Mientras mayor sea el número de rectángulos, mayor precisión tendrá el cálculo.");
-              break;
-
-                  }
-          }
-        </script>
        <div class="colelem" id="u2958"><!-- simple frame --></div>
        <div class="text clearfix colelem shared_content" id="u139-4" data-content-guid="u139-4_content" style="color: black;font-size: 15px;"><!-- content -->
-       <div class="clearfix colelem" id="u4666-4"><!-- content -->
-         <p>En matemáticas, la derivada de una función mide la rapidez con la que cambia el valor de dicha función matemática, según cambie el valor de su variable independiente. La derivada de una función es un concepto local, es decir, se calcula como el límite de la rapidez de cambio media de la función en cierto intervalo, cuando el intervalo considerado para la variable independiente se torna cada vez más pequeño. Por ello se habla del valor de la derivada de una función en un punto dado.</p>
-         <br/>
-       </div>
-       <img src="images/funciones/Simpsons.png" alt="Trulli" width="320" >
-     <p>Ingrese la función.</p>
-        <form action="función-3.php" method="post">
-        <img src="images/ojo.jpg" width="25" onclick="myFunction(0)">
-          <div class="ui input">
-             <input type="text" placeholder="Función: x**2" name="y">
-           </div><br><br>
-           <p>Ingrese el punto inicial y final para el analisis de la función.</p>
-           <img src="images/ojo.jpg" width="25" onclick="myFunction(1)">
-           <div class="ui input">
-             <input type="text" placeholder="Inicio" name="a">
-           </div>
-           <div class="ui input">
-             <input type="text" placeholder="Fin" name="b">
-           </div><br><br>
-           <p>Ingrese la cantidad de rectángulos.</p>
-           <img src="images/ojo.jpg" width="25" onclick="myFunction(2)">
-           <div class="ui input">
-             <input type="text" placeholder="Cantidad de rectangulos" name="n">
-           </div><br><br>
-           <button class="ui button" type="submit" value="Cargar">
-             Calcular
-           </button><br><br>
-         </form>
-         <?php
-           if(isset($_POST['y'])&&isset($_POST['a'])&&isset($_POST['b'])&&isset($_POST['n'])){
-             $y=$_POST['y'];
-             $a=$_POST['a'];
-             $b=$_POST['b'];
-             $n=$_POST['n'];
-             include 'funciones/IntegralRectangulo.php';
-             echo rectangulo($y,$a,$b,$n);
-           }
-         ?>
-         </div>
+       <p>En el álgebra lineal, la factorización o descomposición LU (del inglés Lower-Upper) es una forma de factorización de una matriz como el producto de una matriz triangular inferior y una superior. Debido a la inestabilidad de este método, deben tenerse en cuenta algunos casos especiales, por ejemplo, si uno o varios elementos de la diagonal principal de la matriz a factorizar es cero, es necesario premultiplicar la matriz por una o varias matrices elementales de permutación. Método llamado factorización P A = L U o L U  con pivote. Esta descomposición se usa en el análisis numérico para resolver sistemas de ecuaciones (más eficientemente) o encontrar las matrices inversas. 
+        </p> 
+        <img src="images/funciones/LU.png" alt="Trulli" width="520" ><br><br>
+       <div class="Input">
+        <form action="función-7.php" method="post">
+          <table class="ui celled table">
+          <thead>
+            <tr>
+              <th>a1</th>
+              <th>a2</th>
+              <th>a3</th>
+              <th>b</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input name="a00" value="2" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a01" value="3" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a02" value="1" step="1" maxlength="4" size="4"/></td>
+              <td ><input name="b0"  value="13" step="1" maxlength="4" size="4"/></td>
+            </tr>
+            <tr>
+              <td><input name="a10" value="1" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a11" value="3" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a12" value="1" step="1" maxlength="4" size="4"/></td>
+              <td ><input name="b1" value="5" step="1" maxlength="4" size="4"/></td>
+            </tr>
+            <tr>
+              <td><input name="a20" value="1" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a21" value="3" step="1" maxlength="4" size="4"/></td>
+              <td><input name="a22" value="15" step="1" maxlength="4" size="4"/></td>
+              <td ><input name="b2" value="40" step="1" maxlength="4" size="4"/></td>
+            </tr>
+          </tbody>
+        </table>
+            <button class="ui button" type="submit">Calcular</button>
+          </form>
+        </div>
+          <div class='php'>
+        <?php
+        if(isset($_POST['a00']) && isset($_POST['a01']) && isset($_POST['a02'])
+        && isset($_POST['a10']) && isset($_POST['a11']) && isset($_POST['a12'])
+        && isset($_POST['a20']) && isset($_POST['a21']) && isset($_POST['a22'])
+        && isset($_POST['b0']) && isset($_POST['b1']) && isset($_POST['b2'])){
+
+          $a[0][0]=$_POST['a00'];
+          $a[0][1]=$_POST['a01'];
+          $a[0][2]=$_POST['a02'];
+          $a[1][0]=$_POST['a10'];
+          $a[1][1]=$_POST['a11'];
+          $a[1][2]=$_POST['a12'];
+          $a[2][0]=$_POST['a20'];
+          $a[2][1]=$_POST['a21'];
+          $a[2][2]=$_POST['a22'];
+
+          $id[0][0]=1;
+          $id[0][1]=0;
+          $id[0][2]=0;
+          $id[1][0]=0;
+          $id[1][1]=1;
+          $id[1][2]=0;
+          $id[2][0]=0;
+          $id[2][1]=0;
+          $id[2][2]=1;
+
+          $b[0]=$_POST['b0'];
+          $b[1]=$_POST['b1'];
+          $b[2]=$_POST['b2'];
+          echo '<br>';
+          function imprimirMatriz($matriz){
+            echo '<table class="ui celled table">
+            <thead><tbody>';
+          for($i=0;$i<sizeof($matriz);$i++){
+            echo '<tr>';
+            for($j=0;$j<sizeof($matriz);$j++){
+              // echo " ".$matriz[$i][$j]." ";
+              echo '<td data-label="a1">'.$matriz[$i][$j].'</td>';
+            }
+            echo '<tr>';
+          }
+          echo "</tbody>
+          </table><br>";
+          }
+
+
+        function descompocicionLU(){
+        global $a;
+        global $b;
+        global $id;
+        $b1=$b;
+        for ($i = 0; $i < sizeof($a)-1; $i++) {
+                  for ($j = $i+1; $j < sizeof($a); $j++) {
+                      $mik=$a[$j][$i]/$a[$i][$i];
+                      for ($k = 0; $k < sizeof($a); $k++) {
+                          $a[$j][$k]=$a[$j][$k]-$mik*$a[$i][$k];
+                          $id[$j][$k]=$id[$j][$k]-$mik*$id[$i][$k];
+                      }
+                      $b[$j]=$b[$j]-$mik*$b[$i];
+                  }
+              }
+
+              echo "Matriz escalonada<br>";
+              imprimirMatriz($a);
+              echo "<br>";
+              imprimirMatriz($id);
+              echo "<br>";
+              for($i=0;$i<sizeof($a);$i++){
+                  $x[$i]=0;
+                  $y[$i]=0;
+                  //$b1[$i]=0;
+              }
+
+              for ($i = 0 ; $i < sizeof($a) ; $i++) {
+                      $suma=0;
+                      for ($j = 0; $j < $i; $j++) {
+                      $suma = $suma+$id[$i][$j]*$y[$j];
+                      }
+                      $y[$i]=($b1[$i]-$suma);
+                  }
+
+                  for ($i = sizeof($a)-1; $i >= 0 ; $i--) {
+                        $suma=0;
+                        for ($j = $i; $j < sizeof($a); $j++) {
+                        $suma = $suma+$a[$i][$j]*$x[$j];
+                        }
+
+                        $x[$i]=(1/$a[$i][$i])*($b[$i]-$suma);
+                    }
+
+                  echo '<table class="ui celled table">
+                  <thead><tbody>';
+                  for($i = 0; $i < sizeof($y) ; $i++){
+          
+                    echo "<tr><td>y[".$i."] </td><td> ".$y[$i]."</td></tr>";
+                  }
+                  echo "</tbody>
+                  </table><br>";
+
+                  echo '<br><br><table class="ui celled table">
+                  <thead><tbody>';
+                  for($i = 0; $i < sizeof($x) ; $i++){
+          
+                    echo "<tr><td>x[".$i."] </td><td> ".$x[$i]."</td></tr>";
+                  }
+                  echo "</tbody>
+                  </table><br>";
+          }
+        echo "Matriz original<br>";
+        imprimirMatriz($a);
+        echo "<br>";
+        descompocicionLU();
+        }
+        ?>
+        </div>    
+
+
+        </div>
       </div>
      </div>
     </div>

@@ -54,6 +54,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
               <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 6</p></div></a>
           </div>
+          <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-7.php"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Función 7</p></div></a>
+          </div>
+          
         <div class="MenuItemContainer clearfix colelem" id="u103"><!-- horizontal box -->
              <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition rounded-corners clearfix grpelem" id="u104" href="funci%c3%b3n-6.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u106-4"><!-- content --><p id="u106-2">Acerca de ...</p></div></a>
          </div>

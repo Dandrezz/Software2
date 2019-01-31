@@ -5,6 +5,7 @@ $ori=$polinomio;
 echo 'Integral entre los puntos '.$a.' y '.$b.'<br>';
 echo 'Número de rectangulos '.$n.'<br>';
 $polinomio=str_replace('x','$x', $polinomio);
+if
 $h=abs(($b-$a)/$n);
 $area=0;
 $fun1;
