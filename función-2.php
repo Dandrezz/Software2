@@ -12,7 +12,7 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "require.js", "funci_n-2.css"], "outOfDate":[]};
 </script>
-//comentario
+//comentarioasd
   <link rel="shortcut icon" href="images/favicon.ico?crc=410785846"/>
   <title>Función 2</title>
   <!-- CSS -->
